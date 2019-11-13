@@ -6,7 +6,7 @@ for x in range(1,11):
     sq_list.append(x * x)
 print(sq_list)
 
-#with list comprehension
+#with list comprehension / printing only if numbers are even
 
 new_list = [x * x for x in range(2, 10) if x % 2 != 1]
 print(new_list)
